@@ -8,4 +8,4 @@
 
 ## Contributing
 
-Feel free to submit pull request with additional notebooks.
+Feel free to submit pull requests with additional notebooks.
