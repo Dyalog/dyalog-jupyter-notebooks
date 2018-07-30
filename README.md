@@ -20,10 +20,6 @@ Jupyter notebook documents can be used in the following ways:
 
 You can get an APL language bar and enable key-bindings and character compositions using just a [a bookmarklet](https://abrudz.github.io/lb/apl) (a browser bookmark that contains commands which add new features to the browser). After adding the bookmarklet to your language bar, and opening a Jupyter notebook document in your browser, click on the bookmarklet.
 
-## Online usage
-
-These notebooks are available to try through [TryAPL](http://tryapl.org)'s **Learn** tab. Note however that TryAPL only allows a subset of APL to be used.
-
 ## Static usage
 
 Go to https://nbviewer.jupyter.org/ and enter the address of any Jupyter notebook to render it right in your browser. No installation of anything is required. Please note that when viewed like this, the content of the notebook may not be modified, so no experimentation is allowed.
