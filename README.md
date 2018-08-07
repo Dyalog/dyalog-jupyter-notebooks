@@ -23,6 +23,11 @@ Linux and macOS: From a command line, navigate to your home directory, then run 
 
 You can get an APL language bar and enable key-bindings and character compositions using just a [a bookmarklet](https://abrudz.github.io/lb/apl) (a browser bookmark that contains commands which add new features to the browser). After adding the bookmarklet to your language bar, and opening a Jupyter notebook document in your browser, click on the bookmarklet.
 
+## Online usage<sup>Coming soon!</sup>
+
+1. Click on [TryAPL](https://tryapl.org/)'s **Learn** tab.
+1. Select tutorial or enter the URL of an online Jupyter notebook document.<sup>Coming soon!</sup>
+
 ## Static usage
 
 Go to https://nbviewer.jupyter.org/ and enter the address of any Jupyter notebook to render it right in your browser. No installation of anything is required. Please note that when viewed like this, the content of the notebook may not be modified, so no experimentation is allowed.
