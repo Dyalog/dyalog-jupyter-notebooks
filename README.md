@@ -35,7 +35,7 @@ Go to https://nbviewer.jupyter.org/ and enter the address of any Jupyter noteboo
 ## Export to other formats
 
 1. Follow the [instructions for offline usage](#offline-usage).
-1. Open the *File* menu, click on *Download as* and select format. Note that some taget formats may require installation of third party tools.
+1. Open the *File* menu, click on *Download as* and select format. Note that some target formats may require installation of third party tools.
 
 ## Contributing
 
