@@ -6,19 +6,27 @@ A Jupyter notebook document combines an interactive coding session with narrativ
 
 Jupyter notebook documents can be used in the following ways:
 1. Offline, on the user's local machine: This requires installing Jupyter (a Python program, so installation of Python is required as well) and [an appropriate language kernel](https://github.com/Dyalog/dyalog-jupyter-kernel).
-1. Online, in a dedicated sandboxed environment. Dyalog APL Jupyter notebooks be for example be used on [TryAPL](https://tryapl.org/) with no installation necessary. Note however, that to protect the server and ensure a consistent experience, restrictions on the code apply.
+1. Online, in a dedicated sandboxed environment. Dyalog APL Jupyter notebooks can for example be used on [TryAPL](https://tryapl.org/) with no installation necessary. Note however, that to protect the server and ensure a consistent experience, restrictions on the code apply.
 1. Statically, in that a notebook can be viewed by most any general Jupyter notebook viewer (including online viewers which do not require installation).
 1. Exported to any of a number of widely supported formats, for example HTML or PDF, which may then be used accordingly.
 
 ## Offline usage
 
 1. Follow the [installation instructions for the Dyalog APL Jupyter kernel](https://github.com/Dyalog/dyalog-jupyter-kernel#installation).
-1. [Download](https://github.com/Dyalog/dyalog-jupyter-notebooks/archive/master.zip) or [clone](https://help.github.com/articles/cloning-a-repository/) this repository.
-1. From a command line, navigate to the directory you cloned this repository to, then run `jupyter-notebook`. (Windows users can alternatively find a *Jupyter Notebook* entry on the start menu.) This should launch your browser with a directory view. Click on the notebook you want to open. 
+1. [Download this repository](https://github.com/Dyalog/dyalog-jupyter-notebooks/archive/master.zip) and extract it to your Documents folder (on Windows) or home directory (on Linux and macOS) or a subdirectory thereof.
+1. Start Jupyter Noteboook:  
+Windows: Launch *Jupyter Notebook* from your start menu  
+Linux and macOS: From a command line, navigate to your home directory, then run `jupyter-notebook`.
+1. This should open a directory view in your browser. Navigate to and click on the notebook you want to open. 
 
 ### APL keyboard and language bar
 
 You can get an APL language bar and enable key-bindings and character compositions using just a [a bookmarklet](https://abrudz.github.io/lb/apl) (a browser bookmark that contains commands which add new features to the browser). After adding the bookmarklet to your language bar, and opening a Jupyter notebook document in your browser, click on the bookmarklet.
+
+## Online usage<sup>Coming soon!</sup>
+
+1. Click on [TryAPL](https://tryapl.org/)'s **Learn** tab.
+1. Select tutorial or enter the URL of an online Jupyter notebook document.<sup>Coming soon!</sup>
 
 ## Static usage
 
@@ -26,8 +34,8 @@ Go to https://nbviewer.jupyter.org/ and enter the address of any Jupyter noteboo
 
 ## Export to other formats
 
-1. Follow the [instructions for offline usage](offline-usage).
-1. Open the *File* menu, click on *Download as* and select format. Note that some taget formats may require installation of third party tools.
+1. Follow the [instructions for offline usage](#offline-usage).
+1. Open the *File* menu, click on *Download as* and select format. Note that some target formats may require installation of third party tools.
 
 ## Contributing
 
