@@ -22,7 +22,7 @@ Linux and macOS: From a command line, navigate to your home directory, then run 
 ### Creating content
 Click on any code to begin editing it, then press *Ctrl*+*Enter* to execute the code.
 
-Use the **+** button to insert a new cell, then select cell type (*Code* or *Markdown*) from the dropdown. Additional commands can be found by clicking the ⌨ button.
+Use the `➕︎` button to insert a new cell, then select cell type (*Code* or *Markdown*) from the dropdown. Additional commands can be found by clicking the `⌨︎` button.
 
 To define one or more multi-line functions, begin a Code cell with the line `%define`. (This is a Jupyter notebook meta command, so it cannot be used in an ordinary APL session where a full screen editor is available instead.) For example:
 
@@ -42,7 +42,7 @@ root←{
 You can get an APL language bar and enable key-bindings and character compositions using just a [a bookmarklet](https://abrudz.github.io/lb/apl) (a browser bookmark that contains commands which add new features to the browser). After adding the bookmarklet to your language bar, and opening a Jupyter notebook document in your browser, click on the bookmarklet. You can now insert APL characters in three ways:
 
 1. Click a symbol on the language bar.
-1. Type *Backtick* ( \`) and then the associated symbol (hover over symbols on the language bar to see associations), e.g. *Backtick*+*r* makes `⍴` and *Backtick*+*Shift*+*e* makes `⍷`.
+1. Type *Backtick* (`` ` ``) and then the associated symbol (hover over symbols on the language bar to see associations), e.g. *Backtick*+*r* makes `⍴` and *Backtick*+*Shift*+*e* makes `⍷`.
 1. Type two symbols which roughly make up the APL symbol, then press the *Tab* key to combine them. The two symbols are chosen to be easy to guess according to one of the following systems:
     1. The symbols roughly make up the APL symbol when overlaid. For example, `O-` *Tab* makes `⊖` and `A|`*Tab*  makes `⍋`.
     1. The symbols roughly make up the APL symbol when juxtaposed. For example, `<>` *Tab* makes `⋄` and `[]` *Tab* makes `⎕`
@@ -64,11 +64,11 @@ You can get an APL language bar and enable key-bindings and character compositio
 
 1. Click on *APL Keyboard*. Click on an APL symbol, or on *Shift*, then an APL symbol. 
 1. Click on the *Primer* tab. Click on an APL symbol.
-1. Type *Backtick* ( \`) and then the associated symbol (hover over symbols on *Primer* tab bar to see associations), e.g. *Backtick*+*r* makes `⍴` and *Backtick*+*Shift*+*e* makes `⍷`.
+1. Type *Backtick* (`` ` ``) and then the associated symbol (hover over symbols on *Primer* tab bar to see associations), e.g. *Backtick*+*r* makes `⍴` and *Backtick*+*Shift*+*e* makes `⍷`.
 
 ## Static usage
 
-Go to https://nbviewer.jupyter.org/ and enter the address of any Jupyter notebook to render it right in your browser. No installation of anything is required. Please note that when viewed like this, the content of the notebook may not be modified, so no experimentation is allowed.
+Go to [nbviewer.jupyter.org](https://nbviewer.jupyter.org/) and enter the address of any Jupyter notebook to render it right in your browser. No installation of anything is required. Please note that when viewed like this, the content of the notebook may not be modified, so no experimentation is allowed.
 
 ## Export to other formats
 
