@@ -5,7 +5,7 @@
 A Jupyter notebook document combines an interactive coding session with narrative text according to [Donald Knuth's *literate programming*](https://en.wikipedia.org/wiki/Literate_programming) paradigm. This format is advantageous for teaching APL, explaining algorithms, and sharing ideas. The consumer of a notebook can modify the code and see the effects of their modification, but can also modify the running text and republish the notebook.
 
 Jupyter notebook documents can be used in the following ways:
-1. Offline, on the user's local machine: This requires installing Jupyter (a Python program, so installation of Python is required as well) and [an appropriate language kernel](https://github.com/Dyalog/dyalog-jupyter-kernel).
+1. Offline, on the user's local machine: This requires installing Jupyter (a Python program, so installation of Python is required as well) and [an appropriate language kernel](https://github.com/Dyalog/dyalog-jupyter-kernel). This is the only interactive way to create notebook documents.
 1. Online, in a dedicated sandboxed environment. Dyalog APL Jupyter notebooks can for example be used on [TryAPL](https://tryapl.org/) with no installation necessary. Note however, that to protect the server and ensure a consistent experience, restrictions on the code apply.
 1. Statically, in that a notebook can be viewed by most any general Jupyter notebook viewer (including online viewers which do not require installation).
 1. Exported to any of a number of widely supported formats, for example HTML or PDF, which may then be used accordingly.
@@ -17,16 +17,54 @@ Jupyter notebook documents can be used in the following ways:
 1. Start Jupyter Noteboook:  
 Windows: Launch *Jupyter Notebook* from your start menu  
 Linux and macOS: From a command line, navigate to your home directory, then run `jupyter-notebook`.
-1. This should open a directory view in your browser. Navigate to and click on the notebook you want to open. 
+1. This should open a directory view in your browser. Navigate to and click on the notebook document you want to open or click the *New▾* button and to create a new empty one.
 
-### APL keyboard and language bar
+### Creating content
+Click on any code to begin editing it, then press *Ctrl*+*Enter* to execute the code.
 
-You can get an APL language bar and enable key-bindings and character compositions using just a [a bookmarklet](https://abrudz.github.io/lb/apl) (a browser bookmark that contains commands which add new features to the browser). After adding the bookmarklet to your language bar, and opening a Jupyter notebook document in your browser, click on the bookmarklet.
+Use the **+** button to insert a new cell, then select cell type (*Code* or *Markdown*) from the dropdown. Additional commands can be found by clicking the ⌨ button.
+
+To define one or more multi-line functions, begin a Code cell with the line `%define`. (This is a Jupyter notebook meta command, so it cannot be used in an ordinary APL session where a full screen editor is available instead.) For example:
+
+```
+%define
+root←{
+    ⍺←2
+    ⍵*÷⍺
+}
+∇Greet name
+ ⎕←'Hello, ',name
+∇
+```
+
+### Entering APL characters
+
+You can get an APL language bar and enable key-bindings and character compositions using just a [a bookmarklet](https://abrudz.github.io/lb/apl) (a browser bookmark that contains commands which add new features to the browser). After adding the bookmarklet to your language bar, and opening a Jupyter notebook document in your browser, click on the bookmarklet. You can now insert APL characters in three ways:
+
+1. Click a symbol on the language bar.
+1. Type *Backtick* ( \`) and then the associated symbol (hover over symbols on the language bar to see associations), e.g. *Backtick*+*r* makes `⍴` and *Backtick*+*Shift*+*e* makes `⍷`.
+1. Type two symbols which roughly make up the APL symbol, then press the *Tab* key to combine them. The two symbols are chosen to be easy to guess according to one of the following systems:
+    1. The symbols roughly make up the APL symbol when overlaid. For example, `O-` *Tab* makes `⊖` and `A|`*Tab*  makes `⍋`.
+    1. The symbols roughly make up the APL symbol when juxtaposed. For example, `<>` *Tab* makes `⋄` and `[]` *Tab* makes `⎕`
+    1. The symbols are identical, and are visually similar to the APL symbol. For example, `ee` makes `∊` and `xx` makes `×`.
 
 ## Online usage<sup>Coming soon!</sup>
 
 1. Click on [TryAPL](https://tryapl.org/)'s **Learn** tab.
-1. Select tutorial or enter the URL of an online Jupyter notebook document.<sup>Coming soon!</sup>
+
+1. Select tutorial (or enter the URL of an online Jupyter notebook document.<sup>Coming soon!</sup>)
+
+1. Click *Next* to proceed through the tutorial steps.
+
+1. At any time, you may click on APL expressions in the tutorial pane to re-insert them in the session pane, or press the up arrow key to recall previous statements.
+
+### Entering APL characters
+
+You can get an APL language bar and enable key-bindings and character compositions using just a [a bookmarklet](https://abrudz.github.io/lb/apl) (a browser bookmark that contains commands which add new features to the browser). After adding the bookmarklet to your language bar, and opening a Jupyter notebook document in your browser, click on the bookmarklet. You can insert APL characters in three ways:
+
+1. Click on *APL Keyboard*. Click on an APL symbol, or on *Shift*, then an APL symbol. 
+1. Click on the *Primer* tab. Click on an APL symbol.
+1. Type *Backtick* ( \`) and then the associated symbol (hover over symbols on *Primer* tab bar to see associations), e.g. *Backtick*+*r* makes `⍴` and *Backtick*+*Shift*+*e* makes `⍷`.
 
 ## Static usage
 
