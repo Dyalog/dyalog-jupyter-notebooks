@@ -1,6 +1,6 @@
 # [Jupyter](http://jupyter.org/) notebooks for [Dyalog APL](https://www.dyalog.com/)
 
-## What is all this?
+## What is this and how do I use it?
 
 Please see [our wiki](https://github.com/Dyalog/dyalog-jupyter-kernel/wiki).
 
