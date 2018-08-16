@@ -1,5 +1,7 @@
 # [Jupyter](http://jupyter.org/) notebooks for [Dyalog APL](https://www.dyalog.com/)
 
+A kernel for using these notebooks is available [here](https://github.com/Dyalog/dyalog-jupyter-kernel).
+
 ## What is a Jupyter notebook?
 
 A Jupyter notebook document combines an interactive coding session with narrative text according to [Donald Knuth's *literate programming*](https://en.wikipedia.org/wiki/Literate_programming) paradigm. This format is advantageous for teaching APL, explaining algorithms, and sharing ideas. The consumer of a notebook can modify the code and see the effects of their modification, but can also modify the running text and republish the notebook.
