@@ -1,5 +1,7 @@
 # [Jupyter](http://jupyter.org/) notebooks for [Dyalog APL](https://www.dyalog.com/)
 
+## How can I use these notebooks?
+
 A kernel for using these notebooks is available [here](https://github.com/Dyalog/dyalog-jupyter-kernel).
 
 ## What is a Jupyter notebook?
